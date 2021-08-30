@@ -4,12 +4,6 @@ import pickle
 import base64
 
 
-
-
-from PIL import Image
-#image = Image.open(r'C:\Users\nedia\Downloads\Loans.jpg')
-#st.image(image, caption='Loans')
-
 @st.cache(suppress_st_warning=True)
 def get_fvalue(val):
 	feature_dict = {"No":1,"Yes":2}
