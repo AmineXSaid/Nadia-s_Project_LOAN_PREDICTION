@@ -2,6 +2,7 @@ import streamlit as st
 import numpy as np
 import pickle
 import base64
+from sklearn.ensemble import RandomForestClassifier
 
 
 @st.cache(suppress_st_warning=True)
